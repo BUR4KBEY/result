@@ -110,8 +110,6 @@ if (mappedResult.isOk()) {
 
 ### Pattern Matching for Success and Error
 
-;
-
 ```ts
 const result = divide(10, 0);
 
