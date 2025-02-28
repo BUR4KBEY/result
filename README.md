@@ -1,5 +1,6 @@
 [![NPM Version](https://img.shields.io/npm/v/%40burakbey%2Fresult?style=for-the-badge&logo=npm&color=blue&cacheSeconds=3600)](https://npmjs.com/package/@burakbey/result)
 [![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/bur4kbey/result/test.yml?style=for-the-badge&label=tests&cacheSeconds=3600)](https://github.com/BUR4KBEY/result/actions/workflows/test.yml)
+[![Codecov](https://img.shields.io/codecov/c/github/bur4kbey/result?style=for-the-badge&cacheSeconds=3600)](https://app.codecov.io/gh/BUR4KBEY/result)
 [![GitHub License](https://img.shields.io/github/license/bur4kbey/result?style=for-the-badge)](https://github.com/BUR4KBEY/result/blob/main/LICENSE)
 [![GitHub Repo stars](https://img.shields.io/github/stars/bur4kbey/result?style=for-the-badge&label=%E2%AD%90%20STARS&color=yellow&cacheSeconds=3600)](https://github.com/BUR4KBEY/result)
 
@@ -165,6 +166,10 @@ async function getUser(): AsyncResult<string, Error> {
   }
 })();
 ```
+
+## 🧪 Code Coverage and Tests
+
+Tests are crucial for ensuring that the library functions as expected. You can review the code coverage reports by visiting [**Codecov**](https://app.codecov.io/gh/BUR4KBEY/result). The primary objective is to achieve complete coverage of the entire codebase through rigorous testing.
 
 ## ☕ Support
 
