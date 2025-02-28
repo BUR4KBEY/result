@@ -85,20 +85,4 @@ describe('Result', () => {
     });
     expect(errResult).toBe('Failure: error');
   });
-
-  it('', () => {
-    class CustomError {
-      constructor(public message: string) {}
-    }
-
-    function riskyOperation(): Result<number, CustomError> {
-      return err(new CustomError('Something went wrong'));
-    }
-
-    const result = riskyOperation();
-
-    if (result.isErr()) {
-      console.error('Custom Error:', result.error.message); // Custom Error: Something went wrong
-    }
-  });
 });
